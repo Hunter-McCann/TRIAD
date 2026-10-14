@@ -2,8 +2,7 @@
 
 TRIAD is an experimental amateur-radio digital mode for automatic weather observation.
 It represents data as simultaneous three-note chords chosen from an Ionian
-major scale. Every symbol is a real chord voicing, not an arpeggio: all three
-tones start together, move together, and appear as three tracks on a waterfall.
+major scale. A total of three tones start together, move together, and appear as three tracks on a waterfall.
 
 This repository contains a first Python prototype:
 
@@ -82,6 +81,5 @@ than an SSB-specific waveform. The important next checks are occupied audio
 bandwidth, FM deviation, receiver limiter behavior, and whether the decoder can
 survive realistic NFM noise and squelch edges.
 
-This is a lab prototype, not yet an OTA-ready mode. The decoder assumes known
-symbol timing and clean audio. Good next steps are pilot-aided drift correction,
-soft decisions, interleaving, and a stronger FEC layer.
+This is a lab prototype, not recommended for extended over-the-air (OTA) use. The decoder assumes known
+symbol timing and clean audio. Good next steps are pilot-aided drift correction, interleaving, and a stronger FEC layer.
