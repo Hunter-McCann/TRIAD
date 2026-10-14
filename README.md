@@ -37,19 +37,7 @@ the repository root:
 python3 -m pip install -e .
 ```
 
-Generate and decode a demo packet:
-
-```bash
-python3 examples/demo.py
-```
-
-Generate a WAV file:
-
-```bash
-python3 -m triad.cli encode "WX:T=18.7C RH=61 P=1014.2" out/triad.wav
-```
-
-Decode it:
+Decode a file:
 
 ```bash
 python3 -m triad.cli decode out/triad.wav
