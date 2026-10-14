@@ -34,7 +34,7 @@ For system-wide use from any folder, install this project in editable mode from
 the repository root:
 
 ```bash
-python3 -m pip install -e https://github.com/Hunter-McCann/TRIAD
+python3 -m pip install -e .
 ```
 
 Generate and decode a demo packet:
